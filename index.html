@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boêmia - Loja de violões</title>
+    <!--FAVICON-->
+
+    <!--MENU-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img style="width: 80px;" src="imagens/img-logotipo/logo-boemia.png" alt="Logotipo Boêmia"></a>
+        </div>
+        <nav id="menuOculto" class="menuOculto"  onresize="navInline()">
+            <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a>
+            <ul>
+                <li><a href="#produtos">PRODUTOS</a></li>
+                <li><a href="#avaliacoes">AVALIAÇÕES</a></li>
+                <li><a href="#informacoes">SOBRE</a></li>
+                <li><a href="#informacoes">CONTATOS</a></li>
+            </ul>
+        </nav>
+
+        <div class="navegador">
+            <ul>
+                <li><a href="#produtos">PRODUTOS</a></li>
+                <li><a href="#avaliacoes">AVALIAÇÕES</a></li>
+                <li><a href="#informacoes">SOBRE</a></li>
+                <li><a href="#informacoes">CONTATOS</a></li>
+            </ul>
+        </div>
+        <section id="principal">
+            <span onclick="abrirNav()">&#9776;</span>
+        </section>
+    </header>
+    <main>
+        <div id="banner-principal">
+            <h1 class="titulo">A SUA LOJA DE <strong class="cor">VIOLÕES</strong></h1>
+            <p class="citacao">	“Não tinha documento, nem banho, nem ninguém. Só eu e um violão.”</p>
+            <p class="autor">Seu Jorge</p>
+        </div>
+
+        <div class="produtos-h1">
+            PRODUTOS
+        </div>
+
+        <div id="produtos">
+            <div class="violao01">
+                <div class="descricao">
+                    <h2>ACÚSTICO <strong class="cor">NYLON</strong></h2>
+                    <p>Ainda está nos seus primeiros acordes? Então esse violão é perfeito para você.</p>
+                    <p class="antigo">DE:</p>
+                    <p class="preco">R$ 397,99</p>
+                    <p class="promocao">POR:</p>
+                    <p class="preco-novo">R$ 297,99</p>
+                </div>
+                <div class="venda">
+                    <img src="imagens/img-violao/violao1.png" alt="Violão iniciante">
+                    <a href="#produtos">COMPRAR</a>
+                </div>
+            </div>
+
+            <div class="violao02">
+                <div class="descricao">
+                    <h2>AÇO <strong class="cor">CLÁSSICO</strong></h2>
+                    <p>O violão perfeito para tocar na sua casa ou em um happy hour. Pau pra toda hora!</p>
+                    <p class="antigo">DE:</p>
+                    <p class="preco">R$ 649,99</p>
+                    <p class="promocao">POR:</p>
+                    <p class="preco-novo">R$ 349,99</p>
+                </div>
+                <div class="venda">
+                    <img src="imagens/img-violao/violao2.png" alt="Violão mais vendido">
+                    <a href="#produtos">COMPRAR</a>
+                </div>
+            </div>
+
+            <div class="violao03">
+                <div class="descricao">
+                    <h2>ELÉTRICO <strong class="cor">DELUX</strong></h2>
+                    <p>O melhor som e um acabamento impecável. Só falta ele tocar sozinho!</p>
+                    <p class="antigo">DE:</p>
+                    <p class="preco">R$ 1299,99</p>
+                    <p class="promocao">POR:</p>
+                    <p class="preco-novo">R$ 999,99</p>
+                </div>
+                <div class="venda">
+                    <img src="imagens/img-violao/violao3.png" alt="Violão premium">
+                    <a href="#produtos">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="avaliacoes">AVALIAÇÕES</h1>
+        
+        <section class="cards">
+            <div class="card">
+                <img class="user" src="imagens/img-avaliacoes/perfil-mulher.webp" alt="">
+                <h3>Fernanda Souza</h3>
+                <div class="stars">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                </div>
+                <p>O atendimento me ajudou muito me indicando a escolher o melhor violão, e a entrega foi rápida, muito antes do prazo combinado!</p>
+            </div>
+        
+            <div class="card">
+                <img class="user" src="imagens/img-avaliacoes/perfil-anonimo.png" alt="">
+                <h3>Gabriel Oliveira</h3>
+                <div class="stars">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                </div>
+                <p>Gostei demais. Sou canhoto e sempre tive medo de tentar tocar e não conseguir, mas achei um violão ajustado e aprendi vários acordes em poucas horas!</p>
+            </div>
+        
+            <div class="card">
+                <img class="user" src="imagens/img-avaliacoes/perfil-homem.webp" alt="">
+                <h3>Jefferson Gonçalves</h3>
+                <div class="stars">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                    <img src="imagens/img-estrelas/star.svg" alt="">
+                </div>
+                <p>Atendimento top e sem contar a qualidade do violão! 5 estrelas é pouco!!!</p>
+            </div>
+        </section>
+
+        <div class="dados">
+            <div id="informacoes">
+                <div id="sobre">
+                    <h3>SOBRE NÓS</h3>
+                    <p>A Boêmia foi fundada em 2019, com o objetivo de ofertar instrumentos de qualidade para todo gosto e orçamento. Somos uma loja especializada na venda de violõe, com entrega para todo o Brasil e atendimento 100% online.</p>
+                </div>
+                <div id="contatos">
+                    <h3>REDES SOCIAIS</h3>
+                    <ul>
+                        <li><a href="#informacoes" target="_self"><img class="btn-facebook" src="imagens/img-icones/facebook-botao.jpg" alt="link Facebook"></a></li>
+                        <li><a href="#informacoes" target="_self"><img src="imagens/img-icones/instagram-botao.jpg" alt="link Instagram"></a></li>
+                        <li><a href="#informacoes" target="_self"><img src="imagens/img-icones/whatsapp-botao.jpg" alt="link WhatsApp"></a></li>
+                    </ul>
+                </div>
+                <div id="local">
+                    <h3>CONTATO</h3>
+                    <p>Av. Nações Unidas, 2001 - Rio Branco, Novo Hamburgo, RS <br>
+                        CEP 93320-021 - TELEFONE: 4004-1828 <br>
+                        EMAIL: contato@lojaboemia.com.br</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Site desenvolvido por <a href="https://www.linkedin.com/in/gabriel-silveira-67979b18a/" target="_blank">Gabriel Silveira</a> - 2023</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

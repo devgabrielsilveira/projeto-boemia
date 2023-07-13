@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&display=swap');
+
+@media screen and (min-width: 1125px) {
+
+:root {
+    --cor1:#b8b08c;
+    --cor2:#f1d492;
+    --cor3:#f29558;
+    --cor4:#fec63e;
+    --cor5:#283845;
+    --cor6:#0b0f14;
+    --cor8:#202c3a;
+
+    --cor7:#F2CB07;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    display: none;
+}
+
+#principal {
+    display: none;
+}
+ 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    margin: 2px 0px;
+}
+
+header li {
+    display: inline-block;
+    letter-spacing: 1.9px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 0px 15px 20px 32px;
+    font-size: .9em;
+    font-weight: bold;
+    color: var(--cor5);
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+div.navegador {
+    display: inline-block;
+}
+
+div#banner-principal {
+    display: block;
+    height: 380px;
+    background: url(../imagens/img-banner/banner-principal.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+h1.titulo {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 60px 0px 0px 0px;
+    margin: auto;
+    width: 600px;
+    font-size: 2.8em;
+}
+
+strong.cor {
+    color: #fec43ec5;
+}
+
+p.citacao {  
+    padding: 80px 0px 0px 0px;
+    font-size: 1.2em;
+}
+
+p.autor {
+    font-size: .9em;
+    color: white;
+}
+
+.produtos-h1 {
+    padding: 60px 0px 0px 0px;
+    letter-spacing: 3px;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 20px auto 0px auto;
+    width: 1100px;
+    color: white;
+}
+
+#produtos h2 {
+    padding: 10px 0px;
+}
+
+#produtos p {
+    padding: 0px 15px 0px 15px;
+    font-size: .8em;
+}
+
+#produtos > .violao01 > .descricao > p.antigo {
+    padding: 20px 0px 0px 20px;
+}
+
+#produtos > .violao01 > .descricao > p.preco {
+    font-size: .9em;
+    padding: 0px 0px 25px 20px;
+}
+
+#produtos > .violao01 > .descricao > p.promocao {
+    padding: 0px 0px 5px 20px;
+    letter-spacing: 1.5px;
+}
+
+#produtos > .violao01 > .descricao > p.preco-novo {
+    font-size: 2.3em;
+}
+
+#produtos > .violao02 > .descricao > p.antigo {
+    padding: 20px 0px 0px 20px;
+}
+
+#produtos > .violao02 > .descricao > p.preco {
+    font-size: .9em;
+    padding: 0px 0px 25px 20px;
+}
+
+#produtos > .violao02 > .descricao > p.promocao {
+    padding: 0px 0px 5px 20px;
+    letter-spacing: 1.5px;
+}
+
+#produtos > .violao02 > .descricao > p.preco-novo {
+    font-size: 2.3em;
+}
+
+#produtos > .violao03 > .descricao > p.antigo {
+    padding: 20px 0px 0px 20px;
+}
+
+#produtos > .violao03 > .descricao > p.preco {
+    font-size: .9em;
+    padding: 0px 0px 25px 20px;
+}
+
+#produtos > .violao03 > .descricao > p.promocao {
+    padding: 0px 0px 5px 20px;
+    letter-spacing: 1.5px;
+}
+
+#produtos > .violao03 > .descricao > p.preco-novo {
+    font-size: 2.3em;
+}
+
+#produtos a {
+    width: 150px;
+    margin: 0px auto 15px auto;
+
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: var(--cor4);
+    padding: 10px 0px 10px 0px;
+    transition: .5s;
+}
+
+#produtos img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.violao01 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--cor6);
+    transition: .5s;
+    margin-bottom: 40px;
+}
+
+.violao02 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--cor6);
+    transition: .5s;
+    margin-bottom: 40px;
+}
+
+.violao03 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--cor6);
+    transition: .5s;
+    margin-bottom: 40px;
+}
+
+#avaliacoes {
+    margin: 60px 0px 0px 0px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 950px;
+}
+
+.card {
+    min-height: 320px;
+    padding: 35px 40px;
+}
+
+.card .user {
+    width: 100px;
+}
+
+.stars img {
+    width: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.card p {
+    font-size: .9em;
+}
+
+#informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 1035px;
+    margin: auto;
+}
+
+#sobre {
+    width: 300px;
+}
+
+#sobre h3 {
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 2px;
+}
+
+#sobre p {
+    text-align: justify;
+    padding: 0px 0px 20px 0px;
+    font-size: .9em;
+}
+
+#contatos {
+    width: 300px;
+}
+
+#contatos h3 {
+    padding: 10px 0px 10px 9px;
+    letter-spacing: 2px;
+}
+
+#contatos p {
+    font-size: .9em;
+}
+
+#contatos ul {
+    padding: 0px 0px 20px 0px;
+}
+
+#local {
+    width: 300px;
+}
+
+#local h3 {
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 2px; 
+}
+
+#local p {
+    padding: 0px 0px 20px 0px;
+    font-size: .9em;
+}
+
+}
