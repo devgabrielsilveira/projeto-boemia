@@ -221,7 +221,7 @@ p.autor {
 #produtos > .violao01 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 30px 20px;
 }
 
 #produtos > .violao02 > .descricao > p.antigo {
@@ -245,7 +245,7 @@ p.autor {
 #produtos > .violao02 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 30px 20px;
 }
 
 #produtos > .violao03 > .descricao > p.antigo {
@@ -269,7 +269,7 @@ p.autor {
 #produtos > .violao03 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 30px 20px;
 }
 
 .venda {
@@ -307,7 +307,7 @@ p.autor {
 .violao01 {
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    width: 400px;
     background-color: var(--cor6);
     transition: .5s;
     margin: 0px 10px 40px 10px;
@@ -316,7 +316,7 @@ p.autor {
 .violao02 {
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    width: 400px;
     background-color: var(--cor6);
     transition: .5s;
     margin: 0px 10px 40px 10px;
@@ -325,7 +325,7 @@ p.autor {
 .violao03 {
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    width: 400px;
     background-color: var(--cor6);
     transition: .5s;
     margin: 0px 10px 40px 10px;
