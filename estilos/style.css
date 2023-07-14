@@ -187,8 +187,8 @@ p.autor {
     display: block;
     margin: auto;
     text-align: center;
-    font-size: 1.7em;
-    padding: 20px 0px 15px 0px;
+    font-size: 1.5em;
+    padding: 20px 0px 5px 20px;
 }
 
 #produtos p {
@@ -525,6 +525,9 @@ footer a:hover {
         align-items: center;
         margin: 20px auto 0px auto;
         color: white;
+    }
+    #produtos h2 {
+        font-size: 1.7em;
     }
 
     .violao01 {
