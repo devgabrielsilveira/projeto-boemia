@@ -214,14 +214,14 @@ p.autor {
 }
 
 #produtos > .violao01 > .descricao > p.promocao {
-    padding: 0px 0px 0px 20px;
+    padding: 15px 0px 0px 20px;
     font-size: .9em;
 }
 
 #produtos > .violao01 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 30px 20px;
+    padding: 10px 20px 30px 20px;
 }
 
 #produtos > .violao02 > .descricao > p.antigo {
@@ -238,14 +238,14 @@ p.autor {
 }
 
 #produtos > .violao02 > .descricao > p.promocao {
-    padding: 0px 0px 0px 20px;
+    padding: 15px 0px 0px 20px;
     font-size: .9em;
 }
 
 #produtos > .violao02 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 30px 20px;
+    padding: 10px 20px 30px 20px;
 }
 
 #produtos > .violao03 > .descricao > p.antigo {
@@ -262,14 +262,14 @@ p.autor {
 }
 
 #produtos > .violao03 > .descricao > p.promocao {
-    padding: 0px 0px 0px 20px;
+    padding: 15px 0px 0px 20px;
     font-size: .9em;
 }
 
 #produtos > .violao03 > .descricao > p.preco-novo {
     font-size: 2em;
     font-weight: bold;
-    padding: 30px 20px;
+    padding: 10px 20px 30px 20px;
 }
 
 .venda {
